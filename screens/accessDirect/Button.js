@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Button, StyleSheet, Alert } from 'react-native';
 
 export default function App() {
-  const ipESP32 = "http://192.168.130.229";
+  const ipESP32 = "http://192.168.0.33";
   const [encendido, setEncendido] = useState(false);
 
   const toggleFoco = async () => {

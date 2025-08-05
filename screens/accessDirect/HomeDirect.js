@@ -4,7 +4,7 @@ import { Ionicons, MaterialIcons } from '@expo/vector-icons';
 import axios from 'axios';
 
 export default function HomeDirect({ navigation }) {
-  const ipESP32 = "http://192.168.130.229"; // Asegúrate que esta IP sea correcta
+  const ipESP32 = "http://192.168.0.33"; // Asegúrate que esta IP sea correcta
   const [encendido, setEncendido] = useState(false);
   const [puertaAbierta, setPuertaAbierta] = useState(false); // Nuevo estado
 

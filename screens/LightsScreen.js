@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Button, StyleSheet, ScrollView, Alert, Text, TouchableOpacity } from 'react-native';
 
 export default function LightsScreen() {
-  const ipESP32 = "http://192.168.130.229"; // Cambia esto a tu IP
+  const ipESP32 = "http://192.168.0.33"; // Cambia esto a tu IP
   const luces = [
     { nombre: "Cocina", ruta: "cocina" },
     { nombre: "Comedor", ruta: "comedor" },

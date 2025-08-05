@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList, Alert, TouchableOpacity } from 'react
 import { Ionicons } from '@expo/vector-icons';
 
 const LightCategories = () => {
-  const ipESP32 = "http://192.168.130.229";
+  const ipESP32 = "http://192.168.0.33";
   const lucesCasa = [
     {
       categoria: "Recámaras",
